@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced Selectors</title>
+    <style>
+       
+        body{
+            background-color:lightblue;
+        }
+       ol, ul{
+        background-color:lightblue;
+       }
+      .red{
+        color:rgb(255, 0, 0);
+      }
+      .bold{
+        font-weight: bold;
+      }
+      .green{
+        color:rgb(3, 126, 3);
+      }
+      .green.bold{
+        font-size:1.5rem;
+      }
+      header{
+        text-align:center;
+      }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Noscope</h1>
+    </header>
+    <ul>
+        <li class="red bold">first</li>
+        <li>second</li>
+        <li>third</li>
+        <li class="green bold">fourth</li>
+        <li class="green">fifth</li>
+
+    </ul>
+    <ol>
+        <li class="red">first</li>
+        <li class="red bold">second</li>
+        <li>third</li>
+        <li class="bold">fourth</li>
+        <li>fifth</li>
+    </ol>
+    
+</body>
+</html>

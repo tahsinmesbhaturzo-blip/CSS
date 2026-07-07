@@ -1,0 +1,14 @@
+.blog{
+    background-color: #4087a3;
+    width: 600px;
+    margin: 50px;
+    box-shadow: 10px 10px 25px #000000;
+}
+#header{
+    width: 50%;
+    height: 700px;
+    text-align: center;
+    background-color: #807f7f;
+    background-image:url('../Images/Cute.jfif');
+    background-size: cover;
+}

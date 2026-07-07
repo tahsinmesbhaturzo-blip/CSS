@@ -1,0 +1,17 @@
+article {
+    background-color: #f05252; 
+}
+h2{
+    text-align: center;
+}
+#second{
+    display: none;
+}
+#third{
+    visibility: hidden;
+}
+span{
+    color: #074b21;
+    /* display: block; */
+    border: 2px solid #000000;
+}
